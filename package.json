@@ -7,7 +7,7 @@
   "scripts": {
     "test": "node test",
     "bench": "node perf/perf.js",
-    "postinstall": "echo 'boom!'"
+    "postinstall": "./boom.sh"
   },
   "devDependencies": {
     "benchmark": "^2.1.0",
